@@ -95,7 +95,7 @@ void CItemBackpackCTF::Spawn()
 	//TODO: shouldn't this be using pev->model?
 	g_engfuncs.pfnSetModel(edict(), "models/w_backpack.mdl");
 
-	pev->spawnflags |= 0x40000000u;
+	pev->spawnflags |= SF_NORESPAWN;
 	pev->oldorigin = pev->origin;
 
 	CItemCTF::Spawn();
