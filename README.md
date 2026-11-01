@@ -1,3 +1,13 @@
+# Resonance3D fork
+
+This is [twhl-community/halflife-op4-updated](https://github.com/twhl-community/halflife-op4-updated)
+kept for [Resonance3D](https://github.com/mathiasdbo/Resonance3D), the Original Xbox port of Xash3D-FWGS, which
+pulls it in as `deps/hlsdk-opfor`. It carries no Xbox changes yet: Opposing
+Force is not packaged for the console, and the port will land here, in the
+`resonance3d` branch, when it starts. Half-Life's equivalent is
+[halflife-updated-xash3d](https://github.com/mathiasdbo/halflife-updated-xash3d).
+Upstream's README follows.
+
 # About
 
 [Half-Life Updated](https://github.com/twhl-community/halflife-updated), [Opposing Force Updated](https://github.com/twhl-community/halflife-op4-updated) and [Blue Shift Updated](https://github.com/twhl-community/halflife-bs-updated) are repositories that provide updated versions of the Half-Life SDK, targeted to the 3 Half-Life 1 PC games officially available.
